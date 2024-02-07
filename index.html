@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Rubik+Glitch+Pop&display=swap"
+        rel="stylesheet">
+    <title>TO DO LIST</title>
+</head>
+
+<body>
+    <video autoplay loop muted>
+        <source src="v2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="today">
+        <p class="title">ADD YOUR TASKS FOR TODAY</p>
+        <div class="date">
+            <div class="tdate"></div>
+
+        </div>
+        <span id="calen" class="material-symbols-outlined">
+            calendar_month
+        </span>
+    </div>
+    <div class="container">
+        <input id="task" class="task" type="text" placeholder="Add task">
+        <input id="addtask" class="addtask" type="submit" value="add">
+        <div class="bottompart">
+            
+        </div>
+        <div onclick="clearit()" class="clear">
+            <p class="clearall"> Clear All</p>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
